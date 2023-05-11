@@ -31,6 +31,7 @@ class TaskList {
     taskBlock.classList.add("input");
     dragPoint.classList.add("drag");
     inputLine.classList.add("task");
+    
     inputLine.name = "task";
     inputLine.value = value;
     cancelTask.classList.add("cancel-task");
