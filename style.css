@@ -49,10 +49,10 @@ main{
   cursor: pointer;
 }
 .unsorted{
-  background-image: url(images/inactiveDown.png);
+  background-image: url(images/down_deactive.png);
 }
 .sorted{
-  background-image: url(images/avtiveDown.png); 
+  background-image: url(images/down_active.png); 
 }
 .add-task .input{
   border: none;
@@ -129,12 +129,12 @@ input{
   align-items: center;
 }
 .cancel-task{
-  background-image: url(images/cancel.png);
+  background-image: url(images/cancel_icon.png);
   width: 20px;
   height: 20px;
   margin: 10px;
   cursor: pointer;
 }
 .cancel-task:hover{
-  background-image: url(images/activeCancel.png);
+  background-image: url(images/cancel_active.png);
 }
